@@ -2,6 +2,7 @@ import React from 'react'
 import  ReactDOM from 'react-dom/client'
 import { HelloWoldApp } from './HelloWoldApp';
 import { FirstApp } from './FirstApp';
+import './styles.css'
 
 
 
