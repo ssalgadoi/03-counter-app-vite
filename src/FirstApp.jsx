@@ -13,10 +13,12 @@
 // <h1>{ newMessage( 1,2 ) }</h1>
 
 
-export const FirstApp = () => {
+export const FirstApp = ( { title, subTitle } ) => {
+  //console.log(props);
   return (
     <div>
-      <h1>Sebastián Guillermo</h1>
+      <h1>{ title }</h1>
+      <h2>{ subTitle }</h2>
       <p>Soy Un Developer Full-Stack</p>
     </div> 
   )

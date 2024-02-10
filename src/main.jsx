@@ -11,6 +11,8 @@ import './styles.css'
 ReactDOM.createRoot( document.getElementById('root')).render(
     <React.StrictMode>
         <HelloWoldApp />
-        <FirstApp />
+        <FirstApp  
+        title="Hola , soy el Shipy" 
+        subTitle={ 123 }/>
     </React.StrictMode>
 );
